@@ -10,7 +10,7 @@
     "build": "babel src --out-dir dist --ignore '__tests__/,__mocks__/,__fixtures__/' --source-maps --copy-files",
     "clean": "rimraf dist",
     "prepublishOnly": "rimraf dist && npm run build",
-    "watch": "npm run -s build -- --watch"
+    "watch": "npm run -s build -- --watch --skip-initial-build"
   },
   "files": [
     "dist",

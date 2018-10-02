@@ -23,7 +23,7 @@
     "prepare": "npm-merge-driver install",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "storybook:build": "build-storybook -c .storybook -o storybook-dist",
-    "watch": "npm run -s build -- --watch"
+    "watch": "npm run -s build -- --watch --skip-initial-build"
   },
   "peerDependencies": {
     "babel-runtime": "^6.26.0",
